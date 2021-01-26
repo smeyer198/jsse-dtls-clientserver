@@ -8,7 +8,7 @@ public enum Operation {
 	BASIC,
 	
 	/**
-	 * Basic operation + one echo if the handshake was completed successfully.
+	 * Basic operation + one echo if the handshake is completed successfully.
 	 */
 	ONE_ECHO,
 	
