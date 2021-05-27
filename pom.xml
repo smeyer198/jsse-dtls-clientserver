@@ -7,14 +7,14 @@
 
 	<groupId>se.uu.it</groupId>
 	<artifactId>jsse-dtls-clientserver</artifactId>
-	<version>1.0-SNAPSHOT</version>
+	<version>1.0.0-SNAPSHOT</version>
 
 	<name>jsse-dtls-clientserver</name>
 
 	<properties>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 		<maven.compiler.source>1.9</maven.compiler.source>
-		<maven.compiler.target>1.9</maven.compiler.target>
+		<maven.compiler.target>1.9</maven.compiler.target> 
 	</properties>
 
 	<dependencies>
