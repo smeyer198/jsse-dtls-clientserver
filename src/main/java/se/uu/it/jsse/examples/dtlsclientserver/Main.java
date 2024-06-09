@@ -1,16 +1,15 @@
 package se.uu.it.jsse.examples.dtlsclientserver;
 
-import java.io.FileInputStream;
-import java.io.IOException;
-import java.security.GeneralSecurityException;
-import java.security.KeyStore;
+import com.beust.jcommander.JCommander;
+import com.beust.jcommander.ParameterException;
 
 import javax.net.ssl.KeyManagerFactory;
 import javax.net.ssl.SSLContext;
 import javax.net.ssl.TrustManagerFactory;
-
-import com.beust.jcommander.JCommander;
-import com.beust.jcommander.ParameterException;
+import java.io.FileInputStream;
+import java.io.IOException;
+import java.security.GeneralSecurityException;
+import java.security.KeyStore;
 
 public class Main {
 

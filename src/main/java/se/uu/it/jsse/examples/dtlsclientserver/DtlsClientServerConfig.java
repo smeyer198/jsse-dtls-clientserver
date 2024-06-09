@@ -9,8 +9,8 @@ public class DtlsClientServerConfig {
 	 * The following is to set up the keystores.
 	 */
 	private static final String DEFAULT_TRUST_STORE_PASSWORD = "student";
-	private static final String DEFAULT_TRUST_STORE_LOCATION = "rsa2048.jks";
-	private static final int DEFAULT_PORT = 20000; 
+	private static final String DEFAULT_TRUST_STORE_LOCATION = "rsa2048master.jks";
+	private static final int DEFAULT_PORT = 8090;
 	
 	@Parameter(names = "-trustLocation", required = false, description = "The location of the trust store to use")
 	private String trustLocation = DEFAULT_TRUST_STORE_LOCATION;
